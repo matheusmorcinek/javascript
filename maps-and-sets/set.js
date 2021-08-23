@@ -28,8 +28,23 @@ console.log('Coffee: ', iceCreamFlavors.has('coffee'));
 console.log('What is the size of the ice cream Set?');
 console.log(iceCreamFlavors.size);
 
-console.log(iceCreamFlavors.delete('vanilla'));
-console.log('Does vanilla still exist?', iceCreamFlavors.has('vanilla'));
+// console.log(iceCreamFlavors.delete('vanilla'));
+// console.log('Does vanilla still exist?', iceCreamFlavors.has('vanilla'));
 
-iceCreamFlavors.clear();
-console.log('Did our set clear? ', iceCreamFlavors.size);
+// iceCreamFlavors.clear();
+// console.log('Did our set clear? ', iceCreamFlavors.size);
+
+const iceCreamValues = iceCreamFlavors.values();
+iceCreamValues.next();
+const secondValue = iceCreamValues.next().value;
+console.log('What is the second value in my Set? ', secondValue);
+
+const iceCreamEntries = iceCreamFlavors.entries();
+const firstEntry = iceCreamEntries.next().value;
+console.log('My first entry in my set is: ', firstEntry);
+
+iceCreamFlavors.forEach(value => {
+    if (value !== 'vanilla') {
+        console.log('flavor: ', value);
+    }
+});
