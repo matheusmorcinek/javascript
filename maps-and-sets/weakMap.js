@@ -1,3 +1,5 @@
+//https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/WeakMap
+
 //WeakMap vs Map
 /*
     The keys are weak, and can be garbage collected.
