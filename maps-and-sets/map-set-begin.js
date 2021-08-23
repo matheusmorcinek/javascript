@@ -17,3 +17,9 @@ console.log(saturday);
 
 const noon = saturday.get(12);
 console.log('What am I doing at 12pm on Saturday:', noon);
+
+const hasFour = saturday.has(4);
+console.log('Does our map have four?', hasFour);
+
+const hasEight = saturday.has(8);
+console.log('Does our map has eight?', hasEight);
