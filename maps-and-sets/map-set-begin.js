@@ -52,4 +52,10 @@ const saturdayEntries = saturday.entries();
 saturdayEntries.next();
 saturdayEntries.next();
 const thirdEntry = saturdayEntries.next();
-console.log('what is the third entry on our map? ', thirdEntry.value); 
+console.log('what is the third entry on our map? ', thirdEntry.value);
+
+saturday.forEach((value, key) => {
+    if (key === 12) {
+        console.log(`It's time for ${value}`);
+    }
+});
