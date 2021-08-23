@@ -45,3 +45,11 @@ const saturdayValues = saturday.values();
 saturdayValues.next();
 const secontValue = saturdayValues.next().value;
 console.log('The second value in our saturday map is: ', secontValue);
+
+
+//entries, returns an interator object that contains the key-value pairs of each element
+const saturdayEntries = saturday.entries();
+saturdayEntries.next();
+saturdayEntries.next();
+const thirdEntry = saturdayEntries.next();
+console.log('what is the third entry on our map? ', thirdEntry.value); 
