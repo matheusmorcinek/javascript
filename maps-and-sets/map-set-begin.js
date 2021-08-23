@@ -14,3 +14,6 @@ saturday.set(12, 'launch');
 saturday.set(3, 'watch a movie');
 
 console.log(saturday);
+
+const noon = saturday.get(12);
+console.log('What am I doing at 12pm on Saturday:', noon);
