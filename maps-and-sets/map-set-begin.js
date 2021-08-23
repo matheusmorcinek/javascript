@@ -18,18 +18,30 @@ console.log(saturday);
 const noon = saturday.get(12);
 console.log('What am I doing at 12pm on Saturday:', noon);
 
+
 const hasFour = saturday.has(4);
 console.log('Does our map have four?', hasFour);
 
 const hasEight = saturday.has(8);
 console.log('Does our map has eight?', hasEight);
 
+
 const saturdaySize = saturday.size;
 console.log(`my map contains ${saturdaySize} elements.`);
 
-console.log('did my key-value pair successfully delete - 3?', saturday.delete(3));
+// console.log('did my key-value pair successfully delete - 3?', saturday.delete(3));
 
-console.log('did my key-value pair successfully delete - 10?', saturday.delete(10));
+// console.log('did my key-value pair successfully delete - 10?', saturday.delete(10));
 
-saturday.clear();
-console.log('Map size: ', saturday.size);
+// saturday.clear();
+// console.log('Map size: ', saturday.size);
+
+
+const saturdayKeys = saturday.keys();
+const firstKey = saturdayKeys.next().value;
+console.log('The first key in our saturday map is: ', firstKey);
+
+const saturdayValues = saturday.values();
+saturdayValues.next();
+const secontValue = saturdayValues.next().value;
+console.log('The second value in our saturday map is: ', secontValue);
