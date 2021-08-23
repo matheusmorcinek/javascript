@@ -26,3 +26,10 @@ console.log('Does our map has eight?', hasEight);
 
 const saturdaySize = saturday.size;
 console.log(`my map contains ${saturdaySize} elements.`);
+
+console.log('did my key-value pair successfully delete - 3?', saturday.delete(3));
+
+console.log('did my key-value pair successfully delete - 10?', saturday.delete(10));
+
+saturday.clear();
+console.log('Map size: ', saturday.size);
