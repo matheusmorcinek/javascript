@@ -23,3 +23,6 @@ console.log('Does our map have four?', hasFour);
 
 const hasEight = saturday.has(8);
 console.log('Does our map has eight?', hasEight);
+
+const saturdaySize = saturday.size;
+console.log(`my map contains ${saturdaySize} elements.`);
