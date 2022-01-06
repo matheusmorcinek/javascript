@@ -1,0 +1,29 @@
+=== The difference of using var, let and const. ===
+
+Three things to pay attention to when declaring variables in JavaScript. 
+1 - Scope 
+        In JavaScript there are two types of scope: Local scope and Global scope. 
+        JavaScript has function scope, Each function creates a new scope.
+        Also, the scope dermines the accessibility (visibility) of these variables.
+        Variables defined inside a funcion are not accessible (visible) from outside the function.
+2 - Redeclaration
+3 - Hoisting
+
+
+
+var 
+   Function Scope
+   Var accepts to be redeclared normally
+
+let 
+
+
+
+const
+
+
+
+
+
+JavaScript Hoisiting - hoisting to the upper level. The JS compiler hoists all the VAR variables and functions declarations before executing the code.
+(var-script-6.js)
