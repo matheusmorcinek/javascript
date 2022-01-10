@@ -19,11 +19,11 @@ let
    block scope
    let will throw an error when redeclaring the variable, but once the variable is declared we can change the value of this variable.
    the Hoisting for let are not initialized with undefined like the var, so we need to declare in the correct order, in order to use the variable.
+
 const
-
-
-
-
+   block scope
+   hoisted but not initialized
+   and cannot be re-declared. And different from let, not even the value can be reassigned
 
 JavaScript Hoisiting - hoisting to the upper level. The JS compiler hoists all the VAR variables and functions declarations before executing the code.
 (var-script-6.js)
