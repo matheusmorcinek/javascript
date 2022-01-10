@@ -16,9 +16,9 @@ var
    Var accepts to be redeclared normally
 
 let 
-
-
-
+   block scope
+   let will throw an error when redeclaring the variable, but once the variable is declared we can change the value of this variable.
+   the Hoisting for let are not initialized with undefined like the var, so we need to declare in the correct order, in order to use the variable.
 const
 
 
